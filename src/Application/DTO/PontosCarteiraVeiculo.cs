@@ -3,10 +3,10 @@
 namespace DesignPatternSamples.Application.DTO
 {
     [Serializable]
-    public class DebitoVeiculo
+    public class PontosCarteiraVeiculo
     {
         public DateTime DataOcorrencia { get; set; }
         public string Descricao { get; set; }
-        public double Valor { get; set; }
+        public int Pontos { get; set; }
     }
 }
